@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="style.css" rel="stylesheet">
+    <title>Personal Portfolio Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Slab:wght@600;900&family=Roboto:ital,wght@0,300;0,400;1,100&family=Ubuntu&display=swap" rel="stylesheet">
+  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" 
+    crossorigin="anonymous">
+
+    <link rel="stylesheet" href="skins/color-1.css" class="alternate-style" title="color-1" disabled>
+    <link rel="stylesheet" href="skins/color-2.css" class="alternate-style" title="color-2" disabled>
+    <link rel="stylesheet" href="skins/color-3.css" class="alternate-style" title="color-3" disabled>
+    <link rel="stylesheet" href="skins/color-4.css" class="alternate-style" title="color-4" disabled>
+    <link rel="stylesheet" href="skins/color-5.css" class="alternate-style" title="color-5" disabled>
+    <link rel="stylesheet" href="style-switcher.css">
+</head>
+<body>
+    <div class="container" id="Home">
+        <nav>
+            <div class="logo">folio<b>.</b></div>
+            <ul class="navItems">
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Portfolio">Portfolio</a></li>
+                <li><a href="#Skills">Skills</a></li>
+                <li><a href="#Education">Education</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+            <div class="link">
+                <a href="https://www.linkedin.com/in/fuzail-ahmad-88b232221/" ><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/fuzaillive/" ><i class="fa-brands fa-meta"></i></a>
+                <a href="https://www.instagram.com/_iamfuzail/" ><i class="fab fa-instagram"></i></a>
+            </div>
+        </nav>
+
+        <div class="wrapper" id="Home">
+            <div class="cols cols0">
+                <span class="topline">Hello I'm Fuzail</span>
+                <h1>I'm <span class="multiText"></span></h1>
+                <p>My name is Fuzail Ahmad. I belong to Kanpur. 
+                    I am pursuing my bachelor degree from Maharana Pratap Group of Institution, 
+                    Kanpur. Also I am ambidextrous as I did my academics and event anchoring together. 
+                    I am heading towards Full Stack Development, 
+                    so that I can create some creative and beautiful websites.</p>
+                <div class="btns">
+                    <button>Download CV</button>
+                </div>
+            </div>
+            <div class="cols cols1">
+                <div class="imgbox">
+                    <img src="images/purple.png" id="splash">
+                    <img src="images/prf.png">
+                </div>
+            </div>  
+        </div>
+
+        <!--About section starts-->
+        <section class="about" id="About">
+            <div class="container1">
+                <div class="row">
+                    <div class="section-title padd-15">
+                        <h2>About Me</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="about-content padd-15`">
+                        <div class="row">
+                            <div class="about-text">
+                                <h3>I'm Fuzail Ahmad and <span>a Front End Developer</span></h3>
+                                <p>I belong to Kanpur. 
+                                    I am pursuing my bachelor degree from Maharana Pratap Group of Institution, 
+                                    Kanpur. Also I am ambidextrous as I did my academics and event anchoring together. 
+                                    I am heading towards Full Stack Development, 
+                                    so that I can create some creative and beautiful websites.</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="personal-info padd-15">
+                                <div class="row">
+                                    <div class="info-items">
+                                        <p>Birthday : <span>11 Apr 1999</span></p>
+                                    </div>
+                                    <div class="info-items">
+                                        <p>Age : <span>23</span></p>
+                                    </div>
+                                    <div class="info-items">
+                                        <p>Pursuing : <span>Computer Science and Engineering</span></p>
+                                    </div>
+                                    <div class="info-items">
+                                        <p>E-mail : <span>fuzaillive@gmail.com</span></p>
+                                    </div>
+                                    <div class="info-items">
+                                        <p>Phone : <span>+91-7755034840</span></p>
+                                    </div>
+                                    <div class="info-items">
+                                        <p>Place : <span>Kanpur</span></p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="buttons">
+                                        <a href="#contact" class="btn hire-me">Hire Me</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skills padd-15" id="Skills">
+                                <div class="container2">
+                                    <div class="skills">
+                                        <div class="details">
+                                           <span>HTML</span>
+                                           <span>90%</span>
+                                        </div>
+                                        <div class="bar">
+                                          <div id="html-bar"></div>
+                                        </div>
+                                      </div>
+                        
+                                      <div class="skills">
+                                        <div class="details">
+                                          <span>CSS</span>
+                                          <span>75%</span>
+                                         </div>
+                                         <div class="bar">
+                                           <div id="css-bar"></div>
+                                         </div>
+                                       </div>
+                                       
+                                       
+                                       <div class="skills">
+                                        <div class="details">
+                                          <span>Javascript</span>
+                                          <span>72%</span>
+                                        </div>
+                                       
+                                         <div class="bar">
+                                         <div id="js-bar"></div>
+                                        </div>
+                                       </div>
+                                       
+                                       
+                                       
+                                       <div class="skills">
+                                        <div class="details">
+                                          <span>jQuery</span>
+                                          <span>68%</span>
+                                        </div>
+                                        <div class="bar">
+                                         <div id="jQuery-bar"></div>
+                                         </div>
+                                       </div>
+                
+                                       <div class="skills">
+                                        <div class="details">
+                                          <span>C</span>
+                                          <span>85%</span>
+                                         </div>
+                                         <div class="bar">
+                                           <div id="c-bar"></div>
+                                         </div>
+                                       </div>
+                
+                                       <div class="skills">
+                                        <div class="details">
+                                          <span>C++</span>
+                                          <span>80%</span>
+                                         </div>
+                                         <div class="bar">
+                                           <div id="cpp-bar"></div>
+                                         </div>
+                                       </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="education padd-15" id="Education">
+                                <h3 class="title">Education</h3>
+                                <div class="row">
+                                    <div class="timeline-box padd-15">
+                                        <div class="timeline">
+                                            <div class="timeline-item">
+                                                <div class="circle-dot"></div>
+                                                <h3 class="timeline-date">
+                                                    <i class="fa fa-calendar"></i>2014 - 2015
+                                                </h3>
+                                                <h4 class="timeline-title">High School</h4>
+                                                <p class="timeline-text">St. Francis Xavier's Inter College,</p>
+                                                <p class="timeline-text">Kanpur</p>
+                                            </div>
+                                            <div class="timeline-item">
+                                                <div class="circle-dot"></div>
+                                                <h3 class="timeline-date">
+                                                    <i class="fa fa-calendar"></i>2015 - 2017
+                                                </h3>
+                                                <h4 class="timeline-title">Intermediate</h4>
+                                                <p class="timeline-text">St. Francis Xavier's Inter College,</p>
+                                                <p class="timeline-text">Kanpur</p>
+                                            </div>
+                                
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="experience padd-15">
+                                <h3 class="title">Graduation</h3>
+                                <div class="row">
+                                    <div class="timeline-box padd-15">
+                                        <div class="timeline">
+                                            <div class="timeline-item">
+                                                <div class="circle-dot"></div>
+                                                <h3 class="timeline-date">
+                                                    <i class="fa fa-calendar"></i>2019 - 2023
+                                                </h3>
+                                                <h4 class="timeline-title">Bachelor of Technology(CSE)</h4>
+                                                <p class="timeline-text">Maharana Pratap Engineering College,</p>
+                                                <p class="timeline-text">Kanpur</p>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--About section ends-->
+        <!--Portfolio section starts-->
+        <section class="portfolio-section" id="Portfolio">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title padd-15">
+                        <h2>Portfolio</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="portfolio-heading" style="flex: 0 0 100%;
+                                                          max-width: 100%;
+                                                          margin-bottom: 40px;">
+                        <h2>My Projects :</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="portfolio-items padd-15" style="flex: 0 0 33.33%;
+                                                                max-width: 33.33%;
+                                                                margin-bottom: 30px;">
+                        <div class="portfolio-items-inner" style="border: 6px solid #3d535f;
+                        border-radius: 10px;
+                        overflow: hidden;
+                        cursor: pointer;
+                        box-shadow: 0 15px 10px rgba(0,0,0,0.4);">
+                            <div class="portfolio-img">
+                                <img src="project img/pokemon.jpg" alt="" style="width: 108%;">
+                                <h3>Pokemon <a href="https://iamfuzail.github.io/Pokemon-Website/" style="color: red;">Link</a>
+                                    <a href="https://github.com/iamfuzail/Pokemon-Website.git" style="color: red;">Repo</a></h3>
+                            </div>
+                        </div>
+                    </div>
+
+                       <div class="portfolio-items padd-15" style="flex: 0 0 33.33%;
+                                                                max-width: 33.33%;
+                                                                margin-bottom: 30px;">
+                        <div class="portfolio-items-inner" style="border: 6px solid #3d535f;
+                        border-radius: 10px;
+                        overflow: hidden;
+                        cursor: pointer;
+                        box-shadow: 0 15px 10px rgba(0,0,0,0.4);">
+                            <div class="portfolio-img">
+                                <img src="project img/movieapi.webp" alt="" style="width: 91%;">
+                                <h3>Movie API <a href="https://iamfuzail.github.io/Movie-API/" style="color: red;">Link</a> 
+                                    <a href="https://github.com/iamfuzail/Movie-API.git" style="color: red;">Repo</a></h3>
+                                
+                            </div>
+                        </div>
+                    </div>
+                       <div class="portfolio-items padd-15" style="flex: 0 0 33.33%;
+                                                                max-width: 33.33%;
+                                                                margin-bottom: 30px;">
+                        <div class="portfolio-items-inner" style="border: 6px solid #3d535f;
+                        border-radius: 10px;
+                        overflow: hidden;
+                        cursor: pointer;
+                        box-shadow: 0 15px 10px rgba(0,0,0,0.4);">
+                            <div class="portfolio-img">
+                                <img src="project img/jokesapi.webp" alt="" style="width: 100%;">
+                                <h3>Jokes API <a href="#" style="color: red;">Link</a>
+                                    <a href="#" style="color: red;">Repo</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                       <div class="portfolio-items padd-15" style="flex: 0 0 33.33%;
+                                                                max-width: 33.33%;
+                                                                margin-bottom: 30px;">
+                        <div class="portfolio-items-inner" style="border: 6px solid #3d535f;
+                        border-radius: 10px;
+                        overflow: hidden;
+                        cursor: pointer;
+                        box-shadow: 0 15px 10px rgba(0,0,0,0.4);">
+                            <div class="portfolio-img">
+                                <img src="project img/mongoconn.png" alt="" style="width: 100%;">
+                                <h3>MongoDB Connection 
+                                    <a href="https://github.com/iamfuzail/MongoDB-Connection.git" style="color: red;">Repo</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                       <div class="portfolio-items padd-15" style="flex: 0 0 33.33%;
+                                                                max-width: 33.33%;
+                                                                margin-bottom: 30px;">
+                        <div class="portfolio-items-inner" style="border: 6px solid #3d535f;
+                        border-radius: 10px;
+                        overflow: hidden;
+                        cursor: pointer;
+                        box-shadow: 0 15px 10px rgba(0,0,0,0.4);">
+                            <div class="portfolio-img">
+                                <img src="project img/mysqlconn.jpg" alt="" style="width: 100%;">
+                                <h3>MySQL Connection
+                                    <a href="https://github.com/iamfuzail/MySQL-connection.git" style="color: red;">Repo</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-items padd-15" style="flex: 0 0 33.33%;
+                                                                max-width: 33.33%;
+                                                                margin-bottom: 30px;">
+                        <div class="portfolio-items-inner" style="border: 6px solid #3d535f;
+                        border-radius: 10px;
+                        overflow: hidden;
+                        cursor: pointer;
+                        box-shadow: 0 15px 10px rgba(0,0,0,0.4);">
+                            <div class="portfolio-img">
+                                <img src="project img/formvalid.jpg" alt="" style="width: 66%;">
+                                <h3>Form Validation <a href="https://iamfuzail.github.io/Form-Validation/" style="color: red;">Link</a>
+                                    <a href="https://github.com/iamfuzail/Form-Validation.git" style="color: red;">Repo</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                       <div class="portfolio-items padd-15" style="flex: 0 0 33.33%;
+                                                                max-width: 33.33%;
+                                                                margin-bottom: 30px;">
+                        <div class="portfolio-items-inner" style="border: 6px solid #3d535f;
+                        border-radius: 10px;
+                        overflow: hidden;
+                        cursor: pointer;
+                        box-shadow: 0 15px 10px rgba(0,0,0,0.4);">
+                            <div class="portfolio-img">
+                                <img src="project img/passauth.jpg" alt="" style="width: 66%;">
+                                <h3>Passport Auth <a href="#" style="color: red;">Link</a>
+                                    <a href="#" style="color: red;">Repo</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                       <div class="portfolio-items padd-15" style="flex: 0 0 33.33%;
+                                                                max-width: 33.33%;
+                                                                margin-bottom: 30px;">
+                        <div class="portfolio-items-inner" style="border: 6px solid #3d535f;
+                        border-radius: 10px;
+                        overflow: hidden;
+                        cursor: pointer;
+                        box-shadow: 0 15px 10px rgba(0,0,0,0.4);">
+                            <div class="portfolio-img">
+                                <img src="project img/cric.webp" alt="" style="width: 100%;">
+                                <h3>Cricket API <a href="https://iamfuzail.github.io/Cricket-API/" style="color: red;">Link</a>
+                                    <a href="https://github.com/iamfuzail/Cricket-API.git" style="color: red;">Repo</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                       <div class="portfolio-items padd-15" style="flex: 0 0 33.33%;
+                                                                max-width: 33.33%;
+                                                                margin-bottom: 30px;">
+                        <div class="portfolio-items-inner" style="border: 6px solid #3d535f;
+                        border-radius: 10px;
+                        overflow: hidden;
+                        cursor: pointer;
+                        box-shadow: 0 15px 10px rgba(0,0,0,0.4);">
+                            <div class="portfolio-img">
+                                <img src="project img/weightconverter.jpg" alt="" style="width: 100%;">
+                                <h3>Weight Convertor <a href="https://iamfuzail.github.io/Weight-converter/" style="color: red;">Link</a>
+                                    <a href="https://github.com/iamfuzail/Weight-converter.git" style="color: red;">Repo</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                       <div class="portfolio-items padd-15" style="flex: 0 0 33.33%;
+                                                                max-width: 33.33%;
+                                                                margin-bottom: 30px;">
+                        <div class="portfolio-items-inner" style="border: 6px solid #3d535f;
+                        border-radius: 10px;
+                        overflow: hidden;
+                        cursor: pointer;
+                        box-shadow: 0 15px 10px rgba(0,0,0,0.4);">
+                            <div class="portfolio-img">
+                                <img src="project img/to-do-list.jpg" alt="" style="width: 100%;">
+                                <h3>To do list using jQuery <a href="https://iamfuzail.github.io/Todo-List-using-JQuery/" style="color: red;">Link</a>
+                                    <a href="https://github.com/iamfuzail/Todo-List-using-JQuery.git" style="color: red;">Repo</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                       <div class="portfolio-items padd-15" style="flex: 0 0 33.33%;
+                                                                max-width: 33.33%;
+                                                                margin-bottom: 30px;">
+                        <div class="portfolio-items-inner" style="border: 6px solid #3d535f;
+                        border-radius: 10px;
+                        overflow: hidden;
+                        cursor: pointer;
+                        box-shadow: 0 15px 10px rgba(0,0,0,0.4);">
+                            <div class="portfolio-img">
+                                <img src="project img/calc.webp" alt="" style="width: 72%;">
+                                <h3>Calculator <a href="https://iamfuzail.github.io/Calculator/" style="color: red;">Link</a>
+                                    <a href="https://github.com/iamfuzail/Calculator.git" style="color: red;">Repo</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                       <div class="portfolio-items padd-15" style="flex: 0 0 33.33%;
+                                                                max-width: 33.33%;
+                                                                margin-bottom: 30px;">
+                        <div class="portfolio-items-inner" style="border: 6px solid #3d535f;
+                        border-radius: 10px;
+                        overflow: hidden;
+                        cursor: pointer;
+                        box-shadow: 0 15px 10px rgba(0,0,0,0.4);">
+                            <div class="portfolio-img">
+                                <img src="project img/numberfacts.jpg" alt="" style="width: 110%;">
+                                <h3>Number Facts <a href="#" style="color: red;">Link</a>
+                                    <a href="#" style="color: red;">Repo</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                       <div class="portfolio-items padd-15" style="flex: 0 0 33.33%;
+                                                                max-width: 33.33%;
+                                                                margin-bottom: 30px;">
+                        <div class="portfolio-items-inner" style="border: 6px solid #3d535f;
+                        border-radius: 10px;
+                        overflow: hidden;
+                        cursor: pointer;
+                        box-shadow: 0 15px 10px rgba(0,0,0,0.4);">
+                            <div class="portfolio-img">
+                                <img src="project img/Imgeslider.jpg" alt="" style="width: 110%;">
+                                <h3>Image Slider <a href="https://iamfuzail.github.io/Image-slider/imageslider.html" style="color: red;">Link</a>
+                                    <a href="https://github.com/iamfuzail/Image-slider.git" style="color: red;">Repo</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                       <div class="portfolio-items padd-15" style="flex: 0 0 33.33%;
+                                                                max-width: 33.33%;
+                                                                margin-bottom: 30px;">
+                        <div class="portfolio-items-inner" style="border: 6px solid #3d535f;
+                        border-radius: 10px;
+                        overflow: hidden;
+                        cursor: pointer;
+                        box-shadow: 0 15px 10px rgba(0,0,0,0.4);">
+                            <div class="portfolio-img">
+                                <img src="project img/popup.png" alt="" style="width: 100%;">
+                                <h3>Pop Up <a href="#" style="color: red;">Link</a>
+                                    <a href="#" style="color: red;">Repo</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                       <div class="portfolio-items padd-15" style="flex: 0 0 33.33%;
+                                                                max-width: 33.33%;
+                                                                margin-bottom: 30px;">
+                        <div class="portfolio-items-inner" style="border: 6px solid #3d535f;
+                        border-radius: 10px;
+                        overflow: hidden;
+                        cursor: pointer;
+                        box-shadow: 0 15px 10px rgba(0,0,0,0.4);">
+                            <div class="portfolio-img">
+                                <img src="project img/weatherapi.jpg" alt="" style="width: 92%;">
+                                <h3>Weather API <a href="#" style="color: red;">Link</a>
+                                    <a href="#" style="color: red;">Repo</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                       <div class="portfolio-items padd-15" style="flex: 0 0 33.33%;
+                                                                max-width: 33.33%;
+                                                                margin-bottom: 30px;">
+                        <div class="portfolio-items-inner" style="border: 6px solid #3d535f;
+                        border-radius: 10px;
+                        overflow: hidden;
+                        cursor: pointer;
+                        box-shadow: 0 15px 10px rgba(0,0,0,0.4);">
+                            <div class="portfolio-img">
+                                <img src="project img/copytoclip.webp" alt="" style="width: 100%;">
+                                <h3>Copy To Clipboard <a href="https://iamfuzail.github.io/Copy-to-clipboard/" style="color: red;">Link</a>
+                                    <a href="https://github.com/iamfuzail/Copy-to-clipboard.git" style="color: red;">Repo</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                       <div class="portfolio-items padd-15" style="flex: 0 0 33.33%;
+                                                                max-width: 33.33%;
+                                                                margin-bottom: 30px;">
+                        <div class="portfolio-items-inner" style="border: 6px solid #3d535f;
+                        border-radius: 10px;
+                        overflow: hidden;
+                        cursor: pointer;
+                        box-shadow: 0 15px 10px rgba(0,0,0,0.4);">
+                            <div class="portfolio-img">
+                                <img src="project img/ecomm.webp" alt="" style="width: 100%;">
+                                <h3>E Commerce(soon) <a href="#" style="color: red;">Link</a>
+                                    <a href="#" style="color: red;">Repo</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                       <div class="portfolio-items padd-15" style="flex: 0 0 33.33%;
+                                                                max-width: 33.33%;
+                                                                margin-bottom: 30px;">
+                        <div class="portfolio-items-inner" style="border: 6px solid #3d535f;
+                        border-radius: 10px;
+                        overflow: hidden;
+                        cursor: pointer;
+                        box-shadow: 0 15px 10px rgba(0,0,0,0.4);">
+                            <div class="portfolio-img">
+                                <img src="project img/twitter.jpg" alt="" style="width: 100%;">
+                                <h3>Twitter FrontEnd <a href="https://iamfuzail.github.io/Twitter-clone/" style="color: red;">Link</a>
+                                    <a href="https://github.com/iamfuzail/Tweets.git" style="color: red;">Repo</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                       <div class="portfolio-items padd-15" style="flex: 0 0 33.33%;
+                                                                max-width: 33.33%;
+                                                                margin-bottom: 30px;">
+                        <div class="portfolio-items-inner" style="border: 6px solid #3d535f;
+                        border-radius: 10px;
+                        overflow: hidden;
+                        cursor: pointer;
+                        box-shadow: 0 15px 10px rgba(0,0,0,0.4);">
+                            <div class="portfolio-img">
+                                <img src="images/prf.png" alt="" style="width: 100%;">
+                                <h3>Stripe Payment 
+                                    <a href="#" style="color: red;">Repo</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                       
+
+                    
+                </div>
+            </div>
+        </section>
+        <!--Portfolio section ends-->
+
+        <!--Contact section starts-->
+        <section class="contact-section" id="Contact">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title padd-15">
+                        <h2>Contact Me</h2>
+                    </div>
+                </div>
+                <h3 class="contact-title" style="color: #7f00ff;
+                                                text-align: center;
+                                                font-size: 25px;
+                                                margin-bottom: 20px;">Have You Any question ?</h3>
+                <h4 class="contact-sub-title" style="text-align: center;
+                                                font-size: 25px;
+                                                margin-bottom: 20px;
+                                                color: #3d535f;">I'M AT YOUR SERVICES</h4>
+                <div class="row">
+                    <!--contact info starts-->
+                    <div class="contact-info-item padd-15" style="flex: 0 0 25%;
+                                                                  max-width: 25%;
+                                                                  text-align:center;
+                                                                  margin-bottom: 60px;">
+                        <div class="icon" style="display: inline-block;"><i class="fa fa-phone" style="font-size:25px; color:#3d535f"></i></div>
+                        <h4 style="font-size: 18px; font-weight:700; color:#3d535f; text-transform: capitalize; margin: 15px 0 5px;">Call Me On</h4>
+                        <p style="font-size: 16px; line-height:25px; color:#3d535f;display: contents; font-weight:400;">+91 7755034840</p>
+                    </div>
+                    <!--contact info ends-->
+                    <!--contact info starts-->
+                    <div class="contact-info-item padd-15" style="flex: 0 0 25%;
+                                                                  max-width: 25%;
+                                                                  text-align:center;">
+                        <div class="icon" style="display: inline-block;"><i class="fa fa-map-marker-alt" style="font-size:25px; color:#3d535f"></i></div>
+                        <h4 style="font-size: 18px; font-weight:700; color:#3d535f; text-transform: capitalize; margin: 15px 0 5px;">Address</h4>
+                        <p style="font-size: 16px; line-height:25px; color:#3d535f;display: contents; font-weight:400;">Kanpur Nagar, Uttar Pradesh</p>
+                        <p style="font-size: 16px; line-height:25px; color:#3d535f;display: contents; font-weight:400;">India-208002</p>
+                    </div>
+                    <!--contact info ends-->
+                    <div class="contact-info-item padd-15" style="flex: 0 0 25%;
+                                                                  max-width: 25%;
+                                                                  text-align:center;">
+                        <div class="icon" style="display: inline-block;"><i class="fa fa-envelope" style="font-size:25px; color:#3d535f"></i></div>
+                        <h4 style="font-size: 18px; font-weight:700; color:#3d535f; text-transform: capitalize; margin: 15px 0 5px;">Email</h4>
+                        <p style="font-size: 16px; line-height:25px; color:#3d535f;display: contents; font-weight:400;">fuzaillive@gmail.com</p>
+                    </div>
+                    <!--contact info ends-->
+                    <div class="contact-info-item padd-15" style="flex: 0 0 25%;
+                                                                  max-width: 25%;
+                                                                  text-align:center;">
+                        <div class="icon" style="display: inline-block;"><i class="fa fa-globe-europe" style="font-size:25px; color:#3d535f"></i></div>
+                        <h4 style="font-size: 18px; font-weight:700; color:#3d535f; text-transform: capitalize; margin: 15px 0 5px;">Copyrights | All Right Reserved</h4>
+                        <p style="font-size: 16px; line-height:25px; color:#3d535f; display: contents; font-weight:400;">By - Fuzail Ahmad</p>
+                    </div>
+                    <!--contact info ends-->
+                </div>
+                <h3 class="contact-title padd-15" style="color:#3d535f;
+                                                text-align: center;
+                                                font-size: 25px;
+                                                font-weight: 500;
+                                                margin-bottom: 20px;">SEND ME</h3>
+                <h4 class="contact-sub-title padd-15" style="color: #7f00ff;
+                                                text-align: center;
+                                                font-size: 25px;
+                                                margin-bottom: 20px;">I'M VERY RESPONSIVE TO MESSAGES</h4>
+                <!--Contact form-->
+                <div class="row">
+                    <div class="contact-form padd-15" style="flex: 0 0 100%;
+                                                             max-width: 100%;">
+                        <div class="row">
+                            <div class="form-item col-6 padd-15" style="margin-bottom: 30px;">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Name" style="width: 100%;
+                                                                                                             height:50px;
+                                                                                                             border-radius:15px;
+                                                                                                             background:#fff;
+                                                                                                             border: 1px solid #3d535f;
+                                                                                                             padding: 10px 25px;
+                                                                                                             color:#3d535f;
+                                                                                                             transition: all 0.3s ease;">
+                                </div>
+                            </div>
+                            <div class="form-item col-6 padd-15" style="margin-bottom: 30px;">
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Email" style="width: 100%;
+                                                                                                             height:50px;
+                                                                                                             border-radius:15px;
+                                                                                                             background:#fff;
+                                                                                                             border: 1px solid #3d535f;
+                                                                                                             padding: 10px 25px;
+                                                                                                             color:#3d535f;
+                                                                                                             transition: all 0.3s ease;">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-item col-12 padd-15" style="margin-bottom: 30px;">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Subject" style="width: 100%;
+                                                                                                             height:50px;
+                                                                                                             border-radius:15px;
+                                                                                                             background:#fff;
+                                                                                                             border: 1px solid #3d535f;
+                                                                                                             padding: 10px 25px;
+                                                                                                             color:#3d535f;
+                                                                                                             transition: all 0.3s ease;">
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="row">
+                            <div class="form-item col-12 padd-15" style="margin-bottom: 30px;">
+                                <div class="form-group">
+                                   <textarea name="" class="form-control" id="" placeholder="Message" style="width: 100%;
+                                                                                                             height:50px;
+                                                                                                             border-radius:15px;
+                                                                                                             background:#fff;
+                                                                                                             border: 1px solid #3d535f;
+                                                                                                             padding: 10px 25px;
+                                                                                                             color:#3d535f;
+                                                                                                             transition: all 0.3s ease;"></textarea>
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="row">
+                            <div class="form-item col-12 padd-15">
+                                <div class="form-group">
+                                    <button type="submit" class="btn">Send Message</button>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Contact section ends-->
+    </div>
+    <!--Style switcher starts-->
+    <div class="style-switcher">
+        <div class="style-switcher-toggler s-icon">
+            <i class="fas fa-cog fa-spin"></i>
+        </div>
+        <div class="day-night s-icon">
+            <i class="fas "></i>
+        </div>
+        <h4>Theme Colors</h4>
+        <div class="colors">
+            <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+            <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+            <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+            <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+            <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+        </div>
+    </div>
+    <!--Style switcher ends-->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typingEffect = new Typed(".multiText",{
+            strings : ["Coder","Developer","Editor"],
+            loop : true,
+             typeSpeed : 100,
+             backSpeed : 80,
+             backDelay : 1500
+        })
+    </script>
+    <script src="style-switcher.js"></script>
+</body>
+</html>
